@@ -12,26 +12,29 @@
 // app.listen(PORT, ( )=> {
 //     console.log("Listening server");
 // })
-userData = [
-  {
-    name: "mro",
-    class: "fsd",
-    address: {
-      no: "3",
-      street: "vivekanandar street dubai main road",
-      city: "dubai",
-    },
-  },
-  {
-    name: "VIJAY",
-    class: "fsd",
-    address: {
-      no: "3",
-      street: "vivekanandar street dubai main road",
-      city: "dubai",
-    },
-  },
-];
+   
+// userData = [
+//   {
+//     name: "mro",
+//     class: "fsd",
+//     address: {
+//       no: "3",
+//       street: "vivekanandar street dubai main road",
+//       city: "dubai",
+//     },
+//   },
+//   {
+//     name: "VIJAY",
+//     class: "fsd",
+//     address: {
+//       no: "3",
+//       street: "vivekanandar street dubai main road",
+//       city: "dubai",
+//     },
+//   },
+// ];
+
+
 const http = require("http");
 const fs = require("fs");
 
